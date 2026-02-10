@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #DFF5FF;
+    margin: 0;
+    padding: 0px;
+}
+header {
+    background-color: #67C6E3;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+#casilla_datos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#datos {
+    background-color: #67C6E3;
+    color: white;
+    padding: 20px;
+    padding-bottom: 180px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+    margin-bottom: 20px;
+}
