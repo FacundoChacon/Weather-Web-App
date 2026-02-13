@@ -1,27 +1,43 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #DFF5FF;
+    background-color: #FFFDCE;
     margin: 0;
     padding: 0px;
 }
 header {
-    background-color: #67C6E3;
+    text-align: center;
+    margin-bottom: 0px;
+    padding: 10px;
+    background-color: #F075AE;
+}
+
+#title {
     text-align: center;
     margin-bottom: 20px;
     padding: 10px;
+    background-color: #F7DB91;
 }
-#casilla_datos {
+
+#gallery {
     display: flex;
-    justify-content: space-around;
     flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
 }
-#datos {
-    background-color: #67C6E3;
-    color: white;
-    padding: 20px;
-    padding-bottom: 180px;
-    border-radius: 10px;
-    width: 200px;
+
+#card {
+    width: 300px;
     text-align: center;
-    margin-bottom: 20px;
+    background-color: #F7DB91;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#photo {
+    width: 290px;
+    text-align: center;
+    background-color: #F7DB91;
+    padding: 10px;
+    border-radius: 5px;
 }
